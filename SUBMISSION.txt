@@ -1,6 +1,5 @@
-Live Website: https://your-username.github.io
-GitHub Repository: https://github.com/your-username/portfolio-site
-
+Live Website: https://kenxeth.github.io/
+GitHub Repository: https://github.com/Kenxeth/Kenxeth.github.io
 Screenshots:
 1. Desktop view screenshot: save as desktop-view.png
 2. Mobile view screenshot: save as mobile-view.png
