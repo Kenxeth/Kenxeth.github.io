@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kenneth Gonzalez | Student Portfolio</title>
+    <meta
+      name="description"
+      content="Student portfolio showcasing responsive web design and class projects."
+    />
+    <link rel="stylesheet" href="styles.css?v=2" />
+  </head>
+  <body>
+    <header class="college-header">
+      <nav class="college-nav page-width" aria-label="Main navigation">
+        <div class="student-name" aria-label="Student name">
+          <span class="name-box">K</span>
+          <span>Kenneth Gonzalez</span>
+        </div>
+
+        <ul class="class-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="intro page-width">
+        <div class="intro-text">
+          <p class="eyebrow">Hi my name is</p>
+          <h1>Kenneth a Computer Science Major</h1>
+          <p class="intro-paragraph">
+            I've been coding for approximately 3-4 years. I have experience with
+            fullstack (frontend and backend) and am eager to learn more about AI
+            and deep learning.
+          </p>
+          <div class="intro-buttons">
+            <a class="page-button main-button" href="#projects">View work</a>
+            <a class="page-button contact-button" href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div class="focus-area" aria-label="Profile summary">
+          <img src="kenneth-photo.png" alt="Kenneth Gonzalez" />
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section page-width">
+        <div class="project-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2>Projects</h2>
+        </div>
+
+        <div class="class-projects" aria-label="Project gallery">
+          <article class="class-project">
+            <img src="mira-team.png" alt="Mira team presenting their project" />
+            <div class="project-info">
+              <h3>Mira</h3>
+              <p>
+                Won 1st place among 70+ teams by building a real-time assistive web
+                app that identifies people, vehicles, and obstacles and delivers
+                spoken alerts for visually impaired users.
+              </p>
+            </div>
+          </article>
+
+          <article class="class-project">
+            <img
+              src="event-processing-pipeline.png"
+              alt="Event-driven processing pipeline architecture diagram"
+            />
+            <div class="project-info">
+              <h3>Serverless event processing pipeline</h3>
+              <p>
+                Built and designed an event-driven processing pipeline using AWS
+                Lambda, SQS, DynamoDB and S3 bucket to efficiently retrieve, store
+                data at high loads.
+              </p>
+            </div>
+          </article>
+
+          <article class="class-project">
+            <img
+              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
+              alt="Laptop and analytics dashboard"
+            />
+            <div class="project-info">
+              <h3>ball-o-logy</h3>
+              <p>
+                Built an app where basketball lovers can chat and add each other
+                as friends. Utilized MongoDB and Websockets.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <footer id="contact" class="page-footer">
+      <div class="footer-content page-width">
+        <p>© 2026 Kenneth Gonzalez</p>
+        <a href="mailto:kennethgonzalez067@gmail.com">kennethgonzalez067@gmail.com</a>
+      </div>
+    </footer>
+  </body>
+</html>

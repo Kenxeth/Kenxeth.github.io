@@ -1,0 +1,8 @@
+Live Website: https://your-username.github.io
+GitHub Repository: https://github.com/your-username/portfolio-site
+
+Screenshots:
+1. Desktop view screenshot: save as desktop-view.png
+2. Mobile view screenshot: save as mobile-view.png
+
+Note: This file is prepared according to the assignment instructions. Replace the placeholder URLs with the actual live GitHub Pages link and GitHub repository once the project is published.
